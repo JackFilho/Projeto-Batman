@@ -36,7 +36,7 @@ ul {
 
 li {
     list-style: none;
-    color: aliceblue ;
+    color: #FFFFFF ;
     cursor: pointer;
     font-size: 19px;
     transition: .5s;
@@ -63,7 +63,7 @@ footer {
 }
 
 span {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
@@ -79,65 +79,29 @@ span {
 
 /* CARDS */
   
- .intro p {
-    margin-bottom:0;
-  }
-  
   .people {
     padding:50px 0;
   }
   
-   .item {
-    text-align:center;
-  }
-  
-   .item .box {
+    .box {
     text-align:center;
     padding:30px;
     background-color:#fff;
     margin-bottom:30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
   }
   
-    .item .name {
+   .name {
     font-weight:bold;
     margin-top:28px;
     margin-bottom:8px;
     color:inherit;
   }
   
-   .item .title {
-    text-transform:uppercase;
-    font-weight:bold;
-    color:#d0d0d0;
-    letter-spacing:2px;
-    font-size:13px;
-  }
-  
-   .item .description {
-    font-size:15px;
-    margin-top:15px;
-    margin-bottom:20px;
-  }
-  
-   .item img {
+   img {
     max-width:160px;
   }
-  
-   .social {
-    font-size:18px;
-    color:#a2a8ae;
-  }
-  
-   .social a {
-    color:inherit;
-    margin:0 10px;
-    display:inline-block;
-    opacity:0.7;
-  }
-  
-  .social a:hover {
-    opacity:1;
-  }
+
   
   @media(max-width:768px) {
     .footer-navigation {
